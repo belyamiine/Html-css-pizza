@@ -1,0 +1,97 @@
+body {
+      margin: 0px;
+      min-height: 100vh;
+      min-width: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+}
+
+      
+
+    
+.pizza-container {
+      width: 100%;
+      height: 100%;
+      padding: 5px;
+}
+
+    
+.pizza {
+      width: 50vh;
+      height: 50vh;
+      background-color:tomato ;
+      border-radius: 50%;
+      border: 20px solid #dba24a; 
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(5,1fr);
+      grid-template-rows: repeat(5,1fr);
+}
+
+.olives {
+    
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: black;
+    transform: translate(-50% , -50%);
+
+}
+
+
+
+.O-1 { 
+     grid-column: 3; 
+     grid-row: 2;
+
+}
+.O-2 {
+     grid-column: 2; 
+     grid-row: 3;
+
+ }
+.O-3 {
+      grid-column: 5; 
+      grid-row: 4; 
+ }
+.O-4 {
+     grid-column: 3; 
+      grid-row: 5;  
+ }
+
+ .pepe {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    
+
+ }
+
+ .P-1 { 
+      
+      grid-column: 4; 
+      grid-row: 5;  
+
+ }
+
+ .P-2 {
+
+        grid-column: 2; 
+        grid-row: 5;  
+ }
+
+.P-3 {
+        grid-column: 2; 
+        grid-row: 2;  
+ }
+
+.P-4 {
+        grid-column: 5; 
+        grid-row: 2; 
+      
+ }
